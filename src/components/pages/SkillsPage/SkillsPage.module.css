@@ -1,0 +1,62 @@
+.wrapper {
+    width: 100vw;
+    height: 94.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.title {
+    color: rgb(200, 200, 200);
+    font-size: 70px;
+    font-weight: 600;
+    padding: 50px 0 15px 0;
+}
+
+.skillsItemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    gap: 50px;
+}
+
+.inputItem {
+    width: 80%;
+    background-color: black;
+    border: 0.5px solid rgb(54, 54, 54);
+    border-radius: 15px;
+    font-size: 1.15em;
+    transition: 0.3s;
+    padding: 10px 15px 10px 15px;
+}
+
+.inputItem:focus {
+    outline: 1px solid rgb(78, 78, 78);
+    background-color: rgb(28, 28, 28);
+    color: rgb(202, 202, 202);
+}
+
+.skillWrapper {
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    border: 0.7px solid rgb(64, 63, 63);
+    border-radius: 30px;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(10, 10, 10);
+}
+
+.skillTitle {
+    padding-left: 10px;
+    color: rgb(202, 202, 202);
+}

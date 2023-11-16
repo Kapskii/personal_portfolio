@@ -1,0 +1,50 @@
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5.6vh;
+    background: black;
+    border-bottom: 0.5px solid rgb(40, 40, 40);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+
+.title {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.navItem {
+    text-decoration: none;
+    letter-spacing: 1.25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(157, 157, 157);
+    transition: 0.3s;
+}
+
+.item:hover {
+    color: white;
+}
+

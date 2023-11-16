@@ -1,0 +1,13 @@
+.buttonTheme {
+    color: rgb(157, 157, 157);
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 5.6vh;
+    width: 3vw;
+    transition: 0.3s;
+}
+
+.buttonTheme:hover {
+    color: white;
+}

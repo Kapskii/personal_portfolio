@@ -1,0 +1,54 @@
+.wrapper {
+    height: 94.4vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 70px;
+}
+
+.name {
+    color: rgb(200, 200, 200);
+    font-size: 78px;
+    font-weight: 600;
+}
+
+.subTitle {
+    color: rgb(200, 200, 200);
+    font-size: 23px;
+    margin-top: -18px;
+    padding-left: 4px;
+}
+
+.linkWrapper {
+    display: flex;
+    padding: 10px 0 0 6px;
+    gap: 8px;
+}
+
+.linkGit svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(170, 170, 170);
+    transition: 0.3s;
+}
+
+.linkGit svg:hover {
+    fill: white
+}
+
+.linkLi svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(170, 170, 170);
+    transition: 0.3s;
+}
+
+.linkLi svg:hover {
+    fill: #0e76a8;
+}
