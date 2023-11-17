@@ -1,4 +1,4 @@
-import { HomePageType } from '../../../State/initialDataType'
+import { HomePageType } from '../../../Data/initialDataType'
 import s from './HomePage.module.css'
 
 type PropsType = {

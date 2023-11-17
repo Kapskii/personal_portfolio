@@ -10,5 +10,5 @@ export type HomePageType = {
 
 export type SkillPageType = {
     title: string
-    subTitle: string
+    icon: string
 }

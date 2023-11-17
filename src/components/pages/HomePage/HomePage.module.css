@@ -9,14 +9,16 @@
 .infoWrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 0 0 70px;
+    margin: 0 0 9vh 10vw;
 }
 
 .name {
+    position: relative;
     color: rgb(200, 200, 200);
     font-size: 78px;
     font-weight: 600;
 }
+
 
 .subTitle {
     color: rgb(200, 200, 200);

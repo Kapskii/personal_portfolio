@@ -6,7 +6,7 @@ import { SkillsPage } from './components/pages/SkillsPage/SkillsPage';
 import { ProjectsPage } from './components/pages/ProjectsPage/ProjectsPage';
 import { ExperiancePage } from './components/pages/ExperiancesPage/ExperiancesPage';
 import { ContactsPage } from './components/pages/ContactsPage/ContactsPage';
-import { DataType } from './State/initialDataType';
+import { DataType } from './Data/initialDataType';
 
 type PropsType = {
   data: DataType

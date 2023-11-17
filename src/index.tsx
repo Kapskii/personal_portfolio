@@ -3,7 +3,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { App } from './App';
 import { HashRouter } from 'react-router-dom';
-import { initialData } from './State/initialData';
+import { initialData } from './Data/initialData';
 
 
 const root = ReactDOM.createRoot(
