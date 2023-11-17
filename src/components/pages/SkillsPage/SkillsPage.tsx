@@ -1,6 +1,7 @@
 import { SkillPageType } from '../../../Data/initialDataType'
 import { SuperInput } from '../../input/SuperInput'
 import s from './SkillsPage.module.css'
+import { Skill } from './skill/Skill'
 
 type PropsType = {
     skillData: SkillPageType[]
@@ -14,10 +15,8 @@ export const SkillsPage = (props: PropsType) => {
                 <SuperInput />
                 <div className={s.skillWrapper}>
                     {props.skillData.map(el =>
-                        <div className={s.skill}>
-                            <p className={s.skillTitle}>{el.title}</p>
-                            <img className={s.skillIcon} src={el.icon}></img>
-                        </div>)}
+                        <Skill title={el.title} icon={el.icon}/>
+                        )}
                 </div>
             </div>
         </div>

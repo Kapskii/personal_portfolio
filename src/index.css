@@ -6,7 +6,10 @@ h1,h2,h3,h4,h5,p,span {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   background-color: rgb(51, 51, 51);
+}
+
+* {
+  box-sizing: border-box;
 }
