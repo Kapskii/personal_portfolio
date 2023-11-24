@@ -21,7 +21,7 @@ export const App = (props: PropsType) => {
         <Route path='home' element={<HomePage profileData={props.data.homePage}/>} />
         <Route path='skills' element={<SkillsPage skillData={props.data.skillPage}/>} />
         <Route path='projects' element={<ProjectsPage projectData={props.data.projectPage}/>} />
-        <Route path='experiance' element={<ExperiancePage />} />
+        <Route path='experiance' element={<ExperiancePage experianceData={props.data.experiancePage}/>} />
         <Route path='contacts' element={<ContactsPage />} />
       </Routes>
     </div>

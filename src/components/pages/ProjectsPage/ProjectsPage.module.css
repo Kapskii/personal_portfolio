@@ -8,7 +8,9 @@
 }
 
 .title {
-    color: rgb(200, 200, 200);
+    background: linear-gradient(#292929, #fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 70px;
     font-weight: 600;
     padding: 50px 0 15px 0;
@@ -28,93 +30,4 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-.project {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid gray;
-    border-radius: 15px;
-    width: 30vw;
-    padding: 20px;
-    height: max-content;
-    overflow: hidden;
-    position: relative;
-}
-
-.project::before {
-    content: '';
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image: url('./../../../assets/social.jpeg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-}
-
-.titleWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 0.5px solid gray;
-    padding-bottom: 10px;
-    position: relative;
-}
-
-.titleProject {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 25px;
-    color: white;
-}
-
-.descriptionProject {
-    color: white;
-    font-size: 12px;
-    border-bottom: 0.5px solid gray;
-    padding: 10px 0 10px 0;
-    position: relative;
-}
-
-.stackProject {
-    color: white;
-    text-transform: uppercase;
-    padding: 15px 0 15px 0;
-    position: relative;
-}
-
-.stackProjectWrapper {
-    border-bottom: 0.5px solid gray;
-    padding-bottom: 5px;
-}
-
-.tech{
-    position: relative;
-    width: 35px;
-}
-
-.livePreviewWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0 0 0;
-}
-
-.livePreview{
-    position: relative;
-    display: flex;
-    background-color: rgb(78, 78, 78);
-    border-radius: 20px;
-    padding: 10px 50px 10px 50px;
-    transition: 0.4s;
-}
-
-.livePreview:hover {
-    background-color: red;
 }

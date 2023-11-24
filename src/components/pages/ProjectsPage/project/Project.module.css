@@ -1,0 +1,75 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid rgb(60, 60, 60);
+    border-radius: 15px;
+    width: 30vw;
+    padding: 20px;
+    height: max-content;
+    transition: 0.3s;
+}
+
+.project:hover {
+    border: 3px solid rgb(60, 60, 60);
+    background-color: rgb(17, 17, 17);
+
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(60, 60, 60);
+    padding-bottom: 10px;
+}
+
+.titleProject {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 25px;
+    color: rgb(200, 200, 200);
+}
+
+.descriptionProject {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+    border-bottom: 0.5px solid rgb(60, 60, 60);
+    padding: 10px 0 10px 0;
+}
+
+.stackProject {
+    color: rgb(200, 200, 200);
+    text-transform: uppercase;
+    padding: 15px 0 15px 0;
+}
+
+.stackProjectWrapper {
+    border-bottom: 0.5px solid rgb(60, 60, 60);
+    padding-bottom: 5px;
+}
+
+.tech {
+    position: relative;
+    width: 35px;
+}
+
+.livePreviewWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0 0;
+}
+
+.livePreview {
+    position: relative;
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    transition: 0.4s;
+}
+
+.livePreview:hover {
+    background-color: red;
+}

@@ -12,6 +12,13 @@ import TST from '../assets/tech/ts.svg'
 import HTMLT from '../assets/tech/html.svg'
 import REACTT from '../assets/tech/react.svg'
 import REDUXT from '../assets/tech/redux.svg'
+import CSST from '../assets/tech/css.svg'
+import MUIT from '../assets/tech/material-ui.svg'
+import SASST from '../assets/tech/sass.svg'
+import LEARN from '../assets/experiance/learning.svg'
+import LEARN1 from '../assets/experiance/learning1.svg'
+import LEARN2 from '../assets/experiance/learning2.svg'
+import WORK from '../assets/experiance/work.svg'
 
 
 export const initialData: DataType = {
@@ -30,6 +37,56 @@ export const initialData: DataType = {
         { title: 'GitHub', icon: GH },
     ],
     projectPage: [
-    {title: "Social Network", tech: [JST, TST, HTMLT, REACTT, REDUXT]},
-]
+        {
+            title: "Social Network",
+            tech: [JST, TST, HTMLT, CSST, REACTT, REDUXT],
+            description: 'In this project I am creating a social network with the ability to register and profile settings.',
+            linkGit: 'https://github.com/Kapskii/Social-network',
+            linkLive: 'https://kapskii.github.io/Social-network/#/profile'
+        },
+        {
+            title: "PhotoStudio Template",
+            tech: [JST, HTMLT, CSST],
+            description: 'A neat template for photographers. Functional and concise. Adapted for mobile devices.',
+            linkGit: 'https://github.com/Kapskii/photo_website',
+            linkLive: 'https://kapskii.github.io/photo_website/'
+        },
+        {
+            title: "TODOLIST",
+            tech: [JST, TST, HTMLT, REACTT, MUIT],
+            description: 'Helps you plan your tasks. With the ability to break large tasks into smaller subtasks. There is adding, deleting and sorting.',
+            linkGit: 'https://github.com/Kapskii/newTodolist',
+            linkLive: 'https://kapskii.github.io/newTodolist/'
+        },
+    ],
+    experiancePage: [
+        {
+            logo: WORK,
+            title: "Front-end Developer (Project Works)",
+            description: "Freelance",
+            duration: "September 2023 - present",
+            stack: [JST, TST, HTMLT, CSST, SASST, GH, REACTT, REDUXT ]
+        },
+        {
+            logo: LEARN2,
+            title: "Rolling Scopes school (Stage 1, Stage 2)",
+            description: "In-depth study of javascript, html, css. Also study of preprocessors such as SASS. Creating more complex websites. Working with GitHub.",
+            duration: "November 2023 - present",
+            stack: [JST, HTMLT, CSST, SASST, GH]
+        },
+        {
+            logo: LEARN1,
+            title: "IT-Incubator (Stage 0)",
+            description: "Repetition and consolidation of basic knowledge of JS, CSS, HTML. Creation of a simple project (landing page).",
+            duration: "September 2023 - November 2023",
+            stack: [JST, HTMLT, CSST]
+        },
+        {
+            logo: LEARN,
+            title: "Self-Learning",
+            description: "Creating simple adaptive websites on pure JS, HTML, CSS. Creating projects with the React library, using TypeScript.",
+            duration: "June 2023 - November 2023",
+            stack: [JST, HTMLT, CSST, REACTT, TST]
+        },
+    ]
 }

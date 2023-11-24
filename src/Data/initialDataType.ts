@@ -2,6 +2,7 @@ export type DataType = {
     homePage: HomePageType
     skillPage: SkillPageType[]
     projectPage: ProjectsPageType[]
+    experiancePage: ExperiancePageType[]
 }
 
 export type HomePageType = {
@@ -17,4 +18,15 @@ export type SkillPageType = {
 export type ProjectsPageType = {
     title: string
     tech: string[]
+    description: string
+    linkGit: string
+    linkLive: string
 } 
+
+export type ExperiancePageType = {
+    logo: string
+    title: string
+    description: string
+    duration: string
+    stack: string[]
+}

@@ -1,0 +1,70 @@
+.experiance {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 15px;
+    width: 37vw;
+    padding: 20px;
+    height: max-content;
+    transition: 0.3s;
+}
+
+.experiance:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.experianceLeft {
+    align-self: flex-start;
+}
+
+.experianceRight {
+    align-self: flex-end;
+}
+.experianceLeft::before,
+.experianceRight::before {
+    position: absolute;
+    top: 37%;
+    background: black;
+    padding: 15px 0;
+    content: url('../../../../assets/diamond.svg');
+}
+
+.experianceLeft::before {
+    right: -60px;
+}
+
+.experianceRight::before {
+    left: -59px;
+}
+
+.description_block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    color: rgb(200, 200, 200);
+}
+
+.description {
+    color: rgb(179, 179, 179);
+    font-size: 15px;
+}
+
+.duration {
+    color: rgb(120, 120, 120);
+    font-size: 13px;
+}
+
+.title_stack_block {
+    color: rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+.tech {
+    width: 30px;
+    margin: 0 3px 0 0;
+}

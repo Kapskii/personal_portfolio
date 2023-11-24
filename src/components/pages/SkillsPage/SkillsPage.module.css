@@ -8,7 +8,9 @@
 }
 
 .title {
-    color: rgb(200, 200, 200);
+    background: linear-gradient(#292929, #fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 70px;
     font-weight: 600;
     padding: 50px 0 15px 0;
