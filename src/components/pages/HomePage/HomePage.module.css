@@ -14,7 +14,9 @@
 
 .name {
     position: relative;
-    color: rgb(200, 200, 200);
+    background: linear-gradient(#292929, #fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 78px;
     font-weight: 600;
 }

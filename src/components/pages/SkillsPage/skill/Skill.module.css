@@ -26,6 +26,7 @@
 .skill:hover {
     box-sizing: border-box;
     border: 3px solid rgb(64, 63, 63);
+    transform: perspective(400px) scaleY(0.9) rotateY(15deg);
 }
 
 .skillTitle {

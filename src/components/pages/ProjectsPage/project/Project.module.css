@@ -12,7 +12,7 @@
 .project:hover {
     border: 3px solid rgb(60, 60, 60);
     background-color: rgb(17, 17, 17);
-
+    transform: perspective(400px) translateY(20px) rotateX(5deg);
 }
 
 .titleWrapper {
