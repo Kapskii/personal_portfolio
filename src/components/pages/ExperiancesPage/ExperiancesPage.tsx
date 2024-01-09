@@ -12,7 +12,7 @@ export const ExperiancePage = (props: PropsType) => {
         <div className={s.wrapper}>
             <h1 className={s.title}>EXPERIANCE</h1>
             <div className={s.experianceItemWrapper}>
-                <SuperInput placeholder='Search...'/>
+                {/* <SuperInput placeholder='Search...'/> */}
                 <div className={s.experiancesWrapper}>
                     {props.experianceData.map((el, index) => {
                         return <ExperianceItem 

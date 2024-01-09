@@ -6,7 +6,7 @@
     width: 100vw;
     height: 5.6vh;
     background: black;
-    
+    z-index: 999;
 }
 
 .container {

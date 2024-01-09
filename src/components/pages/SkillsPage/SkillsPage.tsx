@@ -12,7 +12,7 @@ export const SkillsPage = (props: PropsType) => {
         <div className={s.wrapper}>
             <h1 className={s.title}>SKILLS</h1>
             <div className={s.skillsItemWrapper}>
-                <SuperInput placeholder='Search...'/>
+                {/* <SuperInput placeholder='Search...'/> */}
                 <div className={s.skillWrapper}>
                     {props.skillData.map(el =>
                         <Skill title={el.title} icon={el.icon}/>
