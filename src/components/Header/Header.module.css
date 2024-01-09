@@ -1,10 +1,12 @@
 .headerWrapper {
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 5.6vh;
     background: black;
+    
 }
 
 .container {

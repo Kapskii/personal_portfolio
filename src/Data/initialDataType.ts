@@ -7,6 +7,7 @@ export type DataType = {
 
 export type HomePageType = {
     name: string
+    surname: string
     subTitle: string
 }
 

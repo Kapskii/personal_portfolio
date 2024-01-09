@@ -15,7 +15,7 @@ export const ProjectsPage = (props: PropsType) => {
         <div className={s.wrapper}>
             <h1 className={s.title}>PROJECTS</h1>
             <div className={s.projectsItemWrapper}>
-                <SuperInput />
+                <SuperInput placeholder='Search...'/>
                 <div className={s.projectsWrapper}>
                     {props.projectData.map(el => <Project title={el.title} tech={el.tech} description={el.description} linkGit={el.linkGit} linkLive={el.linkLive} />)}
                 </div>

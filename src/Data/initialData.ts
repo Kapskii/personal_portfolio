@@ -23,7 +23,8 @@ import WORK from '../assets/experiance/work.svg'
 
 export const initialData: DataType = {
     homePage: {
-        name: "Slava KAPSKIJ",
+        name: "Slava",
+        surname: "Kapskii",
         subTitle: "Hi! I'm a front-end developer.",
     },
     skillPage: [
@@ -57,6 +58,13 @@ export const initialData: DataType = {
             description: 'Helps you plan your tasks. With the ability to break large tasks into smaller subtasks. There is adding, deleting and sorting.',
             linkGit: 'https://github.com/Kapskii/newTodolist',
             linkLive: 'https://kapskii.github.io/newTodolist/'
+        },
+        {
+            title: "COFFEE-HOUSE",
+            tech: [JST, HTMLT, CSST],
+            description: 'Adaptive website for a coffee shop with the ability to calculate the cost of selected goods, as well as adding an unlimited number of products and product categories..',
+            linkGit: 'https://github.com/Kapskii/coffee-house-web',
+            linkLive: 'https://kapskii.github.io/coffee-house-web/'
         },
     ],
     experiancePage: [

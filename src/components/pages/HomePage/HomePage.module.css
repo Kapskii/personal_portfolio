@@ -1,5 +1,5 @@
 .wrapper {
-    height: 94.4vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -12,6 +12,11 @@
     margin: 0 0 9vh 10vw;
 }
 
+.name_container{
+    display: flex;
+    gap: 15px;
+}
+
 .name {
     position: relative;
     background: linear-gradient(#292929, #fff);
@@ -19,6 +24,12 @@
     -webkit-text-fill-color: transparent;
     font-size: 78px;
     font-weight: 600;
+}
+
+.surname{
+    font-size: 78px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgb(149, 148, 148);
 }
 
 
