@@ -9,6 +9,7 @@ export type HomePageType = {
     name: string
     surname: string
     subTitle: string
+    photo: string
 }
 
 export type SkillPageType = {

@@ -68,3 +68,9 @@
 .linkLi svg:hover {
     fill: #0e76a8;
 }
+
+.photoWrapper,
+.photo{
+    width: 85%;
+    height: 100%;
+}

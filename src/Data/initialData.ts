@@ -19,6 +19,7 @@ import LEARN from '../assets/experiance/learning.svg'
 import LEARN1 from '../assets/experiance/learning1.svg'
 import LEARN2 from '../assets/experiance/learning2.svg'
 import WORK from '../assets/experiance/work.svg'
+import PHOTO from '../assets/photo.jpg'
 
 
 export const initialData: DataType = {
@@ -26,6 +27,7 @@ export const initialData: DataType = {
         name: "Slava",
         surname: "Kapskii",
         subTitle: "Hi! I'm a front-end developer.",
+        photo: PHOTO
     },
     skillPage: [
         { title: 'JavaScript', icon: JS },
