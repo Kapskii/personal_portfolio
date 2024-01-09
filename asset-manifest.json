@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal_portfolio/static/css/main.811aa85a.css",
+    "main.js": "/personal_portfolio/static/js/main.29c1f0d2.js",
+    "static/js/787.2dcca737.chunk.js": "/personal_portfolio/static/js/787.2dcca737.chunk.js",
+    "static/media/learning1.svg": "/personal_portfolio/static/media/learning1.d74c95a456ec9da33be50e158952d22c.svg",
+    "static/media/learning2.svg": "/personal_portfolio/static/media/learning2.eb099dd27242e9d92dab2d11a065b4d4.svg",
+    "static/media/work.svg": "/personal_portfolio/static/media/work.a2365fb155143a276ca5cb710295527f.svg",
+    "static/media/sass.svg": "/personal_portfolio/static/media/sass.db69d267d6be2c746d9a84effaca5ce3.svg",
+    "static/media/learning.svg": "/personal_portfolio/static/media/learning.2e41226c43c40b3e8e305f629eeca28c.svg",
+    "static/media/react.svg": "/personal_portfolio/static/media/react.4b4a266fffb7703154057386cfe03243.svg",
+    "static/media/css.svg": "/personal_portfolio/static/media/css.b7d16f06e81f7dd19b77a0d40f313322.svg",
+    "static/media/html.svg": "/personal_portfolio/static/media/html.c50ed5e38e225f3bb79dbd6410968a99.svg",
+    "static/media/github.svg": "/personal_portfolio/static/media/github.f21107c12edb0fce5e48abb9c88e69f8.svg",
+    "static/media/redux.svg": "/personal_portfolio/static/media/redux.0a4a6ca2be44339bedb69de15f66d243.svg",
+    "static/media/ps.svg": "/personal_portfolio/static/media/ps.428857c57195e757289b1dfcc1bc26ee.svg",
+    "index.html": "/personal_portfolio/index.html",
+    "static/media/ts.svg": "/personal_portfolio/static/media/ts.37066aa65a2e7fcdfe9ed824fd0724b3.svg",
+    "static/media/js.svg": "/personal_portfolio/static/media/js.269578d2414ab93b817c150fd62c212b.svg",
+    "static/media/diamond.svg": "/personal_portfolio/static/media/diamond.5ae185a78601c014b9b0.svg",
+    "static/media/material-ui.svg": "/personal_portfolio/static/media/material-ui.b573536e33ad535299cf9a25dd467ceb.svg",
+    "main.811aa85a.css.map": "/personal_portfolio/static/css/main.811aa85a.css.map",
+    "main.29c1f0d2.js.map": "/personal_portfolio/static/js/main.29c1f0d2.js.map",
+    "787.2dcca737.chunk.js.map": "/personal_portfolio/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.811aa85a.css",
+    "static/js/main.29c1f0d2.js"
+  ]
+}
