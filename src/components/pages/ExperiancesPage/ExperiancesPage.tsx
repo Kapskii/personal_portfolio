@@ -1,5 +1,4 @@
 import { ExperiancePageType } from '../../../Data/initialDataType'
-import { SuperInput } from '../../input/SuperInput'
 import s from './ExperiancesPage.module.css'
 import { ExperianceItem } from './experianceItem/ExperianceItem'
 
@@ -12,7 +11,6 @@ export const ExperiancePage = (props: PropsType) => {
         <div className={s.wrapper}>
             <h1 className={s.title}>EXPERIANCE</h1>
             <div className={s.experianceItemWrapper}>
-                {/* <SuperInput placeholder='Search...'/> */}
                 <div className={s.experiancesWrapper}>
                     {props.experianceData.map((el, index) => {
                         return <ExperianceItem 

@@ -1,4 +1,4 @@
-.contacts_page_wrapper {
+.contactsPage_wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #000;
@@ -15,7 +15,7 @@
     padding: 100px 0 40px 0;
 }
 
-.contact_block {
+.contactBlock {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -23,11 +23,45 @@
     align-items: center;
 }
 
-.contact_page_textarea {
+.contactPage_inputItem {
+    width: 80%;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    outline: 0.5px solid rgb(54, 54, 54);
+    border-radius: 15px;
+    font-size: 1.15em;
+    transition: 0.3s;
+    padding: 10px 15px 10px 15px;
+}
+
+.contactPage_inputItemError {
+    box-sizing: border-box;
+    width: 80%;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    outline: 1px solid rgb(255, 0, 0);
+    box-shadow: 0px 5px 10px 2px rgba(255, 0, 0, 0.4);
+    border-radius: 15px;
+    font-size: 1.15em;
+    transition: 0.3s;
+    padding: 10px 15px 10px 15px;
+}
+
+.contactPage_inputItem:focus {
+    outline: 1px solid rgb(78, 78, 78);
+    background-color: rgb(28, 28, 28);
+    color: rgb(202, 202, 202);
+}
+
+.contactPage_textarea {
     font-family: 'Poppins', sans-serif;
     width: 80%;
     background-color: black;
-    border: 0.5px solid rgb(54, 54, 54);
+    color: #fff;
+    border: 0;
+    outline: 0.5px solid rgb(54, 54, 54);
     border-radius: 15px;
     font-size: 1.14em;
     transition: 0.3s;
@@ -35,13 +69,28 @@
     resize: none;
 }
 
-.contact_page_textarea:focus {
+.contactPage_textareaError {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    outline: 1px solid rgb(255, 0, 0);
+    box-shadow: 0px 5px 10px 2px rgba(255, 0, 0, 0.4);
+    border-radius: 15px;
+    font-size: 1.14em;
+    transition: 0.3s;
+    padding: 10px 15px 10px 15px;
+    resize: none;
+}
+
+.contactPage_textarea:focus {
     outline: 1px solid rgb(78, 78, 78);
     background-color: rgb(28, 28, 28);
     color: rgb(202, 202, 202);
 }
 
-.contact_button_submit{
+.contactButton_submit{
     font-family: 'Poppins', sans-serif;
     padding: 10px 35px 10px 35px;
     font-size: 1em;
@@ -53,10 +102,10 @@
     transition: 0.2s;
 }
 
-.contact_button_submit:hover {
+.contactButton_submit:hover {
     background-color: rgb(28, 28, 28);
 }
 
-.contact_button_submit:active{
+.contactButton_submit:active{
     background: red;
 }

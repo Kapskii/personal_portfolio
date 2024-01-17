@@ -5,7 +5,7 @@ import { GrCube } from "react-icons/gr";
 import { HiOutlineSquaresPlus } from "react-icons/hi2";
 import { RiCodeSSlashLine } from "react-icons/ri";
 import { TiContacts } from "react-icons/ti";
-import { ToggleTheme } from '../buttons/ToggleTheme';
+
 
 
 export const Header = () => {
@@ -41,9 +41,6 @@ export const Header = () => {
                             Contacts
                         </span>
                     </NavLink>
-                </div>
-                <div>
-                    <ToggleTheme />
                 </div>
             </nav>
         </div>

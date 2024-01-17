@@ -7,7 +7,7 @@ export const Skill = (props: PropsType) => {
     return (
         <div className={s.skill}>
             <p className={s.skillTitle}>{props.title}</p>
-            <img className={s.skillIcon} src={props.icon}></img>
+            <img className={s.skillIcon} src={props.icon} alt=''/>
         </div>
     )
 }

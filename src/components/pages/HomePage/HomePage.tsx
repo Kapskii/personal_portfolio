@@ -38,7 +38,7 @@ export const HomePage = (props: PropsType) => {
         </div>
       </div>
       <div className={s.photoWrapper}>
-        <img className={s.photo} src={props.profileData.photo} alt="My photo" />
+        <img className={s.photo} src={props.profileData.photo} alt=""/>
       </div>
     </div>
   );

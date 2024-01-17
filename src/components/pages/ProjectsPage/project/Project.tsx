@@ -19,7 +19,7 @@ export const Project = (props: PropsType) => {
             <span className={s.descriptionProject}>{props.description}</span>
             <div className={s.stackProjectWrapper}>
                 <p className={s.stackProject}>Technologys stack in this project</p>
-                {props.tech.map(el => <img className={s.tech} src={el} />)}
+                {props.tech.map(el => <img className={s.tech} src={el} alt=''/>)}
             </div>
             <div className={s.livePreviewWrapper}>
                 <a className={s.livePreview}
