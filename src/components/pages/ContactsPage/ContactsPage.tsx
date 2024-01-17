@@ -21,7 +21,7 @@ export const ContactsPage = () => {
   };
 
   const error: SubmitErrorHandler<FormType> = () => {
-    alert("Заполните обязательные поля");
+    
   };
 
   const emailRegex =

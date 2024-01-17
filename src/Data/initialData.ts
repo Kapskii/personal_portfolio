@@ -41,8 +41,15 @@ export const initialData: DataType = {
     ],
     projectPage: [
         {
+            title: "Weather App",
+            tech: [TST, HTMLT, CSST, REACTT],
+            description: 'A weather display app with expandable functionality.',
+            linkGit: 'https://github.com/Kapskii/Weather_App',
+            linkLive: 'https://kapskii.github.io/Weather_App/'
+        },
+        {
             title: "Social Network",
-            tech: [JST, TST, HTMLT, CSST, REACTT, REDUXT],
+            tech: [TST, HTMLT, CSST, REACTT, REDUXT],
             description: 'In this project I am creating a social network with the ability to register and profile settings.',
             linkGit: 'https://github.com/Kapskii/Social-network',
             linkLive: 'https://kapskii.github.io/Social-network/#/profile'
@@ -56,7 +63,7 @@ export const initialData: DataType = {
         },
         {
             title: "TODOLIST",
-            tech: [JST, TST, HTMLT, REACTT, MUIT],
+            tech: [TST, HTMLT, REACTT, MUIT, REDUXT],
             description: 'Helps you plan your tasks. With the ability to break large tasks into smaller subtasks. There is adding, deleting and sorting.',
             linkGit: 'https://github.com/Kapskii/newTodolist',
             linkLive: 'https://kapskii.github.io/newTodolist/'
