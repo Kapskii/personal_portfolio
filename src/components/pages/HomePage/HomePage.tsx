@@ -1,5 +1,7 @@
 import { HomePageType } from "../../../Data/initialDataType";
 import s from "./HomePage.module.css";
+import Typed from 'react-typed';
+
 
 type PropsType = {
   profileData: HomePageType;
@@ -13,7 +15,14 @@ export const HomePage = (props: PropsType) => {
           <h2 className={s.name}>{props.profileData.name}</h2>
           <h2 className={s.surname}>{props.profileData.surname}</h2>
         </div>
-        <p className={s.subTitle}>{props.profileData.subTitle}</p>
+        
+        <Typed
+        className={s.subTitle}
+                    strings={[props.profileData.subTitle]}
+                    typeSpeed={100}
+                    backSpeed={40}
+                    loop
+                />
         <div className={s.linkWrapper}>
           <a
             href="https://github.com/Kapskii"

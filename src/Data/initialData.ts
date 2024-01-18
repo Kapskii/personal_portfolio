@@ -82,7 +82,7 @@ export const initialData: DataType = {
             title: "Front-end Developer (Project Works)",
             description: "Freelance",
             duration: "September 2023 - present",
-            stack: [JST, TST, HTMLT, CSST, SASST, GH, REACTT, REDUXT ]
+            stack: [JST, TST, HTMLT, CSST, GH, REACTT, REDUXT ]
         },
         {
             logo: LEARN2,
