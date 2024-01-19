@@ -32,3 +32,9 @@ export type ExperiancePageType = {
     duration: string
     stack: string[]
 }
+
+export type FormType = {
+    name: string;
+    email: string;
+    message: string;
+  };

@@ -1,56 +1,27 @@
-import { SubmitErrorHandler, SubmitHandler, useForm } from "react-hook-form";
-import emailjs from '@emailjs/browser';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import s from "./ContactsPage.module.css";
-import { success } from "../../../utils/toast";
+import { useFormSubmit } from "../../../utils/formSubmit";
 
-
-type FormType = {
-  name: string;
-  email: string;
-  message: string;
-};
 
 export const ContactsPage = () => {
 
-  const {register, handleSubmit, formState: { errors }, reset,} = useForm<FormType>();
-
-  const submit: SubmitHandler<FormType> = (data) => {
-    emailjs.send('service_tzvslyp', 'template_a2q7kts',{
-      name: data.name,
-      email: data.email,
-      message: data.message
-  }, 'VkrBgXkhbz9stdbea')
-      .then((response) => {
-        console.log('Email sent successfully:', response.text);
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-      });
-      success(),
-    reset();
-  };
-
-  const error: SubmitErrorHandler<FormType> = () => {};
-
-  const emailRegex =
-    /^((([0-9A-Za-z]{1}[-0-9A-z\.]{1,}[0-9A-Za-z]{1})|([0-9А-Яа-я]{1}[-0-9А-я\.]{1,}[0-9А-Яа-я]{1}))@([-A-Za-z]{1,}\.){1,2}[-A-Za-z]{2,})$/;
+  const { register, handleSubmit, errors, submit } = useFormSubmit();
 
   return (
     <div className={s.contactsPage_wrapper}>
-      <form className={s.contactBlock} onSubmit={handleSubmit(submit, error)}>
+      <form className={s.contactBlock} onSubmit={handleSubmit(submit)}>
         <h1 className={s.title}>CONTACTS</h1>
-        <input autoComplete="off" type="text" placeholder="Your name..." {...register("name", { required: true })}
+        <input autoComplete="off" type="text" placeholder="Your name..." {...register("name")}
           className={errors.name ? s.contactPage_inputItemError : s.contactPage_inputItem}
         />
-        <input autoComplete="off" type="email" placeholder="Your email..." {...register("email", { required: true, pattern: emailRegex })}
+        <input autoComplete="off" type="email" placeholder="Your email..." {...register("email")}
           className={errors.email ? s.contactPage_inputItemError : s.contactPage_inputItem}
         />
         <textarea
           rows={7}
           placeholder="Your message..."
-          {...register("message", { required: true })}
+          {...register("message")}
           className={
             errors.message
               ? s.contactPage_textareaError
