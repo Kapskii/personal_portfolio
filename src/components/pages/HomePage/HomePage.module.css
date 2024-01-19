@@ -132,7 +132,7 @@
 
     .photo {
         margin-left: 30px;
-        object-fit: cover;
+        object-fit: contain;
     }
 
 }
@@ -177,6 +177,7 @@
 
     .photo {
         margin-left: 0;
+        object-fit: cover;
     }
 
 }

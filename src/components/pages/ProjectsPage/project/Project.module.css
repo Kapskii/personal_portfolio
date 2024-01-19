@@ -3,7 +3,7 @@
     flex-direction: column;
     border: 0.5px solid rgb(60, 60, 60);
     border-radius: 15px;
-    width: 30vw;
+    width: 400px;
     padding: 20px;
     height: auto;
     transition: 0.3s;
@@ -73,4 +73,17 @@
 
 .livePreview:hover {
     background-color: red;
+}
+
+@media (max-width: 1024px) {
+    .project {
+        width: 650px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .project {
+        width: 90%;
+    }
 }

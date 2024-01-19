@@ -1,6 +1,7 @@
 .wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    padding: 0 40px 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,4 +31,20 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+
+@media (max-width: 1150px) {
+    .wrapper {
+        padding: 0 40px 100px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 50px;
+        padding: 60px 0 15px 0;
+    }
 }

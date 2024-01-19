@@ -6,8 +6,8 @@
     box-sizing: border-box;
     border: 0.7px solid rgb(64, 63, 63);
     border-radius: 30px;
-    width: 20vw;
-    height: 20vh;
+    width: 300px;
+    height: 160px;
     background-color: rgb(10, 10, 10);
     transition: 0.3s;
 }

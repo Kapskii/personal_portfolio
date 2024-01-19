@@ -45,3 +45,17 @@
 .component{
     align-self: flex-start;
 }
+
+
+
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 50px;
+        padding: 60px 0 15px 0;
+    }
+
+    .experiancesWrapper::before {
+display: none;
+    }
+}

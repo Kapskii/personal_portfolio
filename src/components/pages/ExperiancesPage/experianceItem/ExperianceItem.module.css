@@ -69,3 +69,33 @@
     width: 30px;
     margin: 0 3px 0 0;
 }
+
+@media (max-width: 1024px) {
+    .experianceLeft::before {
+        right: -50px;
+    }
+    
+    .experianceRight::before {
+        left: -45px;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+    .experianceLeft::before,
+    .experianceRight::before {
+      display: none;
+    }
+
+.experiance{
+    flex-direction: column;
+    width: 100%;
+}
+
+
+    .experianceLeft,  
+    .experianceRight {
+        align-self: center;
+    }
+}
