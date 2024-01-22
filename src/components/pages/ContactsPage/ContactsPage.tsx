@@ -8,6 +8,7 @@ export const ContactsPage = () => {
 
   const { register, handleSubmit, errors, submit } = useFormSubmit();
 
+
   return (
     <div className={s.contactsPage_wrapper}>
       <form className={s.contactBlock} onSubmit={handleSubmit(submit)}>
@@ -28,7 +29,8 @@ export const ContactsPage = () => {
               : s.contactPage_textarea
           }
         />
-        <input className={s.contactButton_submit} type="submit" />
+        <input className={s.contactButton_submit} type='submit'/>
+        
       </form>
       <ToastContainer
       position="bottom-center"

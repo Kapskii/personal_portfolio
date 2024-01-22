@@ -78,12 +78,14 @@
     .header_nav,
     .header_navActive {
         position: fixed;
-        bottom: -500px;
+        bottom: -100%;
         left: 0;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
-        height: 500px;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.9);
         transition: 0.3s;
     }
@@ -96,8 +98,10 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        padding-top: 40px;
-        padding-left: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
     }
 
     .header_navItem {
@@ -106,13 +110,15 @@
 
     .item {
         color: rgb(253, 253, 253);
+        font-size: 25px;
     }
 
     .header_menuButton {
+        position: relative;
+        z-index: 999;
         display: block;
         margin-left: auto;
         margin-right: 15px;
-        height: 25px;
         padding: 0;
         border: 0;
         background-color: transparent;
