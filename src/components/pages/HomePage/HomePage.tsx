@@ -35,7 +35,7 @@ export const HomePage = (props: PropsType) => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/slava-kapskij-31521b224/"
+            href="https://www.linkedin.com/in/slava-kapskii-31521b224/"
             target="_blank"
             rel="noreferrer"
             className={s.linkLi}
