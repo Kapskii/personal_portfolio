@@ -13,7 +13,7 @@ export const Header = () => {
 
   return (
     <div className={s.headerWrapper}>
-      <NavLink to="home" className={s.header_logoItem}>
+      <NavLink onClick={() => setOpen(!isOpen)} to="home" className={s.header_logoItem}>
         <RiCodeSSlashLine size="23px" />
         Slava KAPSKIJ
       </NavLink>
