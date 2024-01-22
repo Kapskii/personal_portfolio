@@ -78,18 +78,18 @@
     .header_nav,
     .header_navActive {
         position: fixed;
-        top: 0;
-        left: -220px;
+        bottom: -500px;
+        left: 0;
         display: flex;
         flex-direction: column;
-        width: 220px;
-        height: 100%;
+        width: 100%;
+        height: 500px;
         background-color: rgba(0, 0, 0, 0.9);
         transition: 0.3s;
     }
 
     .header_navActive {
-        left: 0px;
+        bottom: 0px;
     }
 
     .header_navList {
@@ -111,6 +111,7 @@
     .header_menuButton {
         display: block;
         margin-left: auto;
+        margin-right: 15px;
         height: 25px;
         padding: 0;
         border: 0;

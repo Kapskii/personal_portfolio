@@ -25,7 +25,6 @@
 
 .contactPage_inputItem {
     width: 100%;
-    text-align: center;
     background-color: black;
     color: #fff;
     border: 0;
@@ -38,7 +37,6 @@
 
 .contactPage_inputItemError {
     box-sizing: border-box;
-    text-align: center;
     width: 100%;
     background-color: black;
     color: #fff;
