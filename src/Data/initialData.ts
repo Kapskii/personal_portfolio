@@ -42,7 +42,7 @@ export const initialData: DataType = {
     projectPage: [
         {
             title: "Weather App",
-            tech: [TST, HTMLT, CSST, REACTT],
+            tech: [TST, HTMLT, CSST, REACTT, REDUXT],
             description: 'A weather display app with expandable functionality.',
             linkGit: 'https://github.com/Kapskii/Weather_App',
             linkLive: 'https://kapskii.github.io/Weather_App/'
